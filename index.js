@@ -32,7 +32,7 @@ async function run() {
     //for vercel commented it
     // await client.connect();
     // await client.db("admin").command({ ping: 1 });
-    console.log("Pinged your deployment. You successfully connected to MongoDB!");
+    console.log("Pinged your deployment. You successfully connected to MongoDB! Db");
 
    const jobsCollection = client.db('jobsDB').collection('jobs')
 //post jobs
@@ -41,7 +41,9 @@ app.post('/jobs', async (req, res) => {
     try {
         const result = await jobsCollection.insertOne(newJob)
         res.send(result)
-    } catch (error) {
+    }
+     catch (error) 
+     {
         res.status(500).send({ error: 'Failed to insert job' })
     }
 })
@@ -71,6 +73,8 @@ app.delete('/jobs/:id', async (req, res) => {
       );
       res.send(result);
     });
+
+    //to get specific
 
     app.get("/jobs/:id", async (req, res) => {
   const id = req.params.id;
