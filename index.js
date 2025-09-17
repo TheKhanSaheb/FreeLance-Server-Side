@@ -1,3 +1,4 @@
+//server start
 require('dotenv').config()
 const express = require('express');
 const cors = require('cors');
@@ -15,7 +16,7 @@ app.listen(port, () => {
     console.log(`Freelance server running at port ${port}`);
 });
 
-// MONGODB
+// MONGODB start
 const { MongoClient, ServerApiVersion, ObjectId } = require('mongodb');
 const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.fshzsrc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`;
 
