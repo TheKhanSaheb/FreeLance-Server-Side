@@ -14,7 +14,7 @@ It is built with **Express.js** and **MongoDB**, providing secure APIs for authe
 - ➕ **CRUD Endpoints**: Add, Read, Update, Delete tasks.  
 - 🔑 **Authentication Support** integrated with Firebase Auth (client handles login, server verifies data).  
 - 🌍 **CORS Enabled** for secure communication with client.  
-- 📦 **Environment Variables** stored securely with `.env`.  
+- 📦 **Environment Variables** stored securely with `.env`to protect api codes  
 
 ## 📦 npm Packages Used
 - `express js`  
