@@ -17,7 +17,7 @@ It is built with **Express.js** and **MongoDB**, providing secure APIs for authe
 - 📦 **Environment Variables** stored securely with `.env`.  
 
 ## 📦 npm Packages Used
-- `express`  
+- `express js`  
 - `cors`  
 - `mongodb`  
 - `dotenv`  
