@@ -2,7 +2,7 @@
 
 ## 📌 Purpose
 This is the **backend server** for the Freelance Task Hub platform.  
-It is built with **Express.js** and **MongoDB**, providing secure APIs for authentication, task management, and database operations.
+It is built with **Express.js** and **MongoDB**, providing secure APIs for authentication, task management, and database operations and etc
 
 
 ## 🌐 Live Server
